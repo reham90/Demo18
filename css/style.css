@@ -399,7 +399,7 @@ border-bottom: 1px solid rgb(226, 229, 241);
 .search-input::placeholder {
 	color: rgb(153, 153, 153);
 	font-size: 14px;
-	margin-top: -3px;
+	margin-top: 2px;
 }
 
 .search-button {
