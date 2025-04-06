@@ -357,8 +357,12 @@ border-bottom: 1px solid rgb(226, 229, 241);
 	color: #fff;
 	width: 16px;
 	height: 16px;
-
+    padding-inline-end: 1px;
 	font-size: 16px;
+}
+html[dir="ltr"] .cart-number{
+	inset-inline-end: -8px;
+	inset-inline-start: auto;
 }
 
 .other-side-top-header {
