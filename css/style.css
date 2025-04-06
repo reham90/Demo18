@@ -380,7 +380,7 @@ border-bottom: 1px solid rgb(226, 229, 241);
 .dropbtn-with-arrow:after {
 	content: "";
 	position: absolute;
-	top: 58%;
+	top: 50%;
 	transform: translateY(-50%);
 	font: var(--fa-font-regular);
 	font-size: 8px;
@@ -1053,7 +1053,7 @@ a:focus {
 
 	.dropdown-div-with-arrow {
 		margin-inline-start: 20px;
-		margin-top: 30px;
+		margin-top: 35px;
 	}
 
 	.top-header {
@@ -1111,6 +1111,8 @@ a:focus {
 		height: 40px;
 		border-radius: 20px;
 		font-size: 14px;
+		padding: 0 16px;
+		padding-inline-end: 50px;
 	}
 
 	.search-input::placeholder {
@@ -1233,9 +1235,11 @@ a:focus {
 	.cart-icon {
 		font-size: 14px;
 	}
-
+	.product-name-div{
+		height: 55px;
+	}
 	.product-name {
-		height: 50px;
+		height: 55px;
 
 
 	}
